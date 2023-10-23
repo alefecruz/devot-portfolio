@@ -1,5 +1,5 @@
 import { Text } from '@/components/atom/text';
-
+import { Image } from '@/components/atom/image';
 export default function App() {
     return (
         <main>
@@ -21,6 +21,12 @@ export default function App() {
             <Text format="BUTTON" color="PRIMARY">
                 ENTRE EM CONTATO
             </Text>
+            <Image
+                alt="image.jpg"
+                src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                widthSize="MEDIUM"
+                heightSize="LARGE"
+            />
         </main>
     );
 }
