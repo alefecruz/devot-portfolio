@@ -1,1 +1,1 @@
-export interface IAtomExampleProps {}
+export type IAtomExampleProps = {}
